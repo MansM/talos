@@ -8,7 +8,7 @@ replace (
 
 	// forked go-yaml that introduces RawYAML interface, which can be used to populate YAML fields using bytes
 	// which are then encoded as a valid YAML blocks with proper indentiation
-	gopkg.in/yaml.v3 => github.com/unix4ever/yaml v0.0.0-20220527175918-f17b0f05cf2c
+	gopkg.in/yaml.v3 => github.com/unix4ever/yaml/v2 v2.4.0
 )
 
 // Kubernetes dependencies sharing the same version.
@@ -16,7 +16,7 @@ require (
 	k8s.io/api v0.29.0-alpha.1
 	k8s.io/apimachinery v0.29.0-alpha.1
 	k8s.io/apiserver v0.29.0-alpha.1
-	k8s.io/client-go v0.29.0-alpha.1
+	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/component-base v0.29.0-alpha.1
 	k8s.io/cri-api v0.29.0-alpha.1
 	k8s.io/kubectl v0.29.0-alpha.1
@@ -32,7 +32,7 @@ require (
 	github.com/beevik/ntp v1.3.0
 	github.com/benbjohnson/clock v1.3.5 // project archived on 2023-05-18
 	github.com/cenkalti/backoff/v4 v4.2.1
-	github.com/containerd/cgroups v1.1.0
+	github.com/containerd/cgroups/v3 v3.0.2
 	github.com/containerd/containerd v1.6.22
 	github.com/containerd/typeurl/v2 v2.1.1
 	github.com/containernetworking/cni v1.1.2
@@ -61,7 +61,7 @@ require (
 	github.com/google/uuid v1.3.1
 	github.com/gopacket/gopacket v1.1.2-0.20230910070655-0d0aa7b3b2d7
 	github.com/gosuri/uiprogress v0.0.1
-	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.0.1
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-getter/v2 v2.2.1
 	github.com/hashicorp/go-multierror v1.1.1
@@ -81,8 +81,8 @@ require (
 	github.com/opencontainers/image-spec v1.1.0-rc4
 	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
 	github.com/packethost/packngo v0.30.0
-	github.com/pelletier/go-toml v1.9.5
-	github.com/pin/tftp v2.1.0+incompatible
+	github.com/pelletier/go-toml/v2 v2.1.0
+	github.com/pin/tftp/v3 v3.0.0
 	github.com/pmorjan/kmod v1.1.0
 	github.com/prometheus/procfs v0.11.1
 	github.com/rivo/tview v0.0.0-20230814110005-ccc2c8119703
