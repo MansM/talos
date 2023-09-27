@@ -22,19 +22,19 @@ EXTRAS ?= v1.6.0-alpha.0
 # renovate: datasource=github-tags depName=golang/go
 GO_VERSION ?= 1.21
 # renovate: datasource=go depName=golang.org/x/tools
-GOIMPORTS_VERSION ?= v0.12.0
+GOIMPORTS_VERSION ?= v0.13.0
 # renovate: datasource=go depName=mvdan.cc/gofumpt
 GOFUMPT_VERSION ?= v0.5.0
 # renovate: datasource=go depName=github.com/golangci/golangci-lint
 GOLANGCILINT_VERSION ?= v1.54.2
 # renovate: datasource=go depName=golang.org/x/tools
-STRINGER_VERSION ?= v0.12.0
+STRINGER_VERSION ?= v0.13.0
 # renovate: datasource=go depName=github.com/alvaroloes/enumer
 ENUMER_VERSION ?= v1.1.2
 # renovate: datasource=go depName=k8s.io/code-generator
-DEEPCOPY_GEN_VERSION ?= v0.27.4
+DEEPCOPY_GEN_VERSION ?= v0.28.2
 # renovate: datasource=go depName=github.com/planetscale/vtprotobuf
-VTPROTOBUF_VERSION ?= v0.4.0
+VTPROTOBUF_VERSION ?= v0.5.0
 # renovate: datasource=go depName=github.com/siderolabs/deep-copy
 DEEPCOPY_VERSION ?= v0.5.5
 # renovate: datasource=go depName=github.com/siderolabs/importvet
